@@ -21,7 +21,7 @@ deleteCharhandler = (el) => {
   //  return element === el;
   // });
   temp.splice(el,1);
-  //console.log(temp);
+  console.log(temp);
   //console.log(newString);
   const newString = temp.join('');
   this.setState({strLength: newString});
